@@ -1,0 +1,35 @@
+*{
+    padding:0px ;
+    margin: 0px;
+}
+.menu-contain{
+    background-color: rgb(130, 192, 50);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    list-style: none;
+    align-items: center;
+    
+}
+.logo-photo{
+    width: 150px;
+    margin: 10px;
+}
+.menu-list{
+    display: flex;
+    margin: 10px; 
+
+}
+.item{
+    margin-right: 15px;
+    padding-right: 30px;
+    font-size: 20px;
+
+}
+.item a{
+    text-decoration: none;
+}
+.item:hover{
+    color: white;
+}
