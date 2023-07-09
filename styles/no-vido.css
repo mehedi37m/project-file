@@ -33,3 +33,14 @@
 .item:hover{
     color: white;
 }
+.banner-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/image/woman.jpg'),
+    linear-gradient(45deg,rgb(196, 166, 166),rgb(198, 230, 16));
+    background-size: cover;
+    color: white;
+
+}
