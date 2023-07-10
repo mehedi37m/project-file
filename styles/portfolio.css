@@ -102,7 +102,7 @@ main{
   padding: 131px;
   border-radius: 10px;
   background-color: #fff8f3;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 130px;
 }
 .section-tittle {
@@ -127,4 +127,19 @@ main{
 }
 .about-info{
     text-align: center;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+#text{
+  padding: 30px 105px 50px 105px;
+  margin-top: 0;
+}
+.skills-container{
+  display: flex;
 }
